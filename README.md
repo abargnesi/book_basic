@@ -2,7 +2,7 @@
 
 ## Sending a message
 
-Ruby objects are mutable. Which messages (e.g. methods) they respond to can change at run-time.
+Ruby objects are mutable, which messages (e.g. methods) they respond to can change at run-time.
 
 ```ruby
 my_obj = Object.new
