@@ -4,6 +4,8 @@
 
 Ruby objects are mutable. Objects can respond to messages (e.g. methods), in a dynamic fashion, and you can change this at run-time.
 
+Let us take the following:
+
 ```ruby
 my_obj = Object.new
 # can I respond to the foo message?
@@ -31,3 +33,5 @@ my_obj.send(:foo)
 my_obj.foo
 # => :foo
 ```
+
+This example shows how we can add an instance method to the `my_obj` object at run-time.
